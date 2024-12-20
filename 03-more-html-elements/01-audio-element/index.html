@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Sandbox</title>
+  </head>
+  <body>
+    <h1>HTML & CSS Sandbox - Audio</h1>
+    <p>
+      Audio song player<audio
+        src="./song1.mp3"
+        type="audio/mp3"
+        controls
+      ></audio>
+    </p>
+
+    <P> Audio Play with fall back
+    <audio controls>
+      <source src="./song1.mp3"  type="audio/mp3"/>
+    <!-- Fallback  -->
+    <p>Yourbrowser does not support the audio element</p>
+  </P>
+    <!-- Autoplay -->
+    <!-- <audio src="./song1.mp3" autoplay></audio> -->
+
+    <!-- Autoplay with control -->
+    <p>
+      Autoplay with control
+      <audio src="./song1.mp3" autoplay controls></audio>
+    </p>
+    <!-- Autoplay loop -->
+    <p>
+      Autoplay loop
+      <audio src="./song1.mp3" autoplay controls loop></audio>
+<br><br><br><br><br>
+      <!-- fig and figcaption -->
+       <figure>
+        <figcaption>Listen to the song: </figcaption>
+        <audio src="./song1.mp3" controls></audio>
+        <a href="./song1.mp3">Download Audio</a>
+       </figure>
+    </p>
+  </body>
+</html>
