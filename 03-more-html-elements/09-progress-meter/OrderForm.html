@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Form</title>
+  </head>
+  <body>
+    <p>
+        <table border="1">
+            <tr>
+                <th>Cookie type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Chicolate Chip</td>
+                <td>$ 4.50</td>
+            </tr>
+            <tr>
+                <td>Outmeal raisen</td>
+                <td>$ 2.50</td>
+            </tr>
+        </table>
+    </p>
+    <br>
+    <p>
+        <form>
+            <label>Cookie Type</label>
+            <select name="Cookie Type" id="Cookie Type">
+                <option value="non"></option>
+                <option value="Chicolate Chips">Chockolate</option>
+                <option value="Outmeal Raisen">Outmeal raisen</option>
+            </select>
+            <br><br>
+            <label>Quantity</label>
+            <input name="Quantit" type="number" min="1" max="100"><br><br>
+            <label>Delivery Date</label>
+            <input name="Delivery Date" type="date"><br><br>
+            <button>Order Now</button>
+        </form>
+    </p>
+  </body>
+</html>
