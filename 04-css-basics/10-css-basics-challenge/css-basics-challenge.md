@@ -39,13 +39,13 @@ Here are the requirements:
 
 <!-- 1. Font - Use the `Lato` font from Google Fonts. Add the correct link to the head of the HTML file and the correct font-family to the body. -->
 
-2. Body - Make body font size `18px` and a line height of` 1.6`.
-3. Header - Make the header background color `#5e175b` and the text color white in hexidecimal format (Short version).
-4. Header H1 - Align text to `center`, font size `40px` and a text indent of `20px`.
-5. Anchor Tags - Remove the underline from all anchor tags and give them a color of `#333`. When hovered over, change the color to `rebeccapurple`. Make the active color `red`.
-6. UL - Set the list style type to `none` and give the list a padding of `0`. I know we have not gone over padding yet. It is `padding: 0`.
-7. Main Menu - Give the main menu a background color of `#f4f4f4`. Make it all uppercase using the `text-transform` property and text indent of `10px`.
-8. Lead Paragraph - Make the font `bold`, a size of `20px` and the color `rebeccapurple`
+<!-- 2. Body - Make body font size `18px` and a line height of` 1.6`. -->
+<!-- 3. Header - Make the header background color `#5e175b` and the text color white in hexidecimal format (Short version). -->
+<!-- 4. Header H1 - Align text to `center`, font size `40px` and a text indent of `20px`. -->
+<!-- 5. Anchor Tags - Remove the underline from all anchor tags and give them a color of `#333`. When hovered over, change the color to `rebeccapurple`. Make the active color `red`. -->
+<!-- 6. UL - Set the list style type to `none` and give the list a padding of `0`. I know we have not gone over padding yet. It is `padding: 0`. -->
+<!-- 7. Main Menu - Give the main menu a background color of `#f4f4f4`. Make it all uppercase using the `text-transform` property and text indent of `10px`. -->
+<!-- 8. Lead Paragraph - Make the font `bold`, a size of `20px` and the color `rebeccapurple` -->
 
 Here is what it should look like:
 
