@@ -24,4 +24,5 @@ a:focus {
 /* Visited */
 a:visited {
   background: darkblue;
+  background-position: center;
 }
