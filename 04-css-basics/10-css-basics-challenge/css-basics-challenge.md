@@ -37,7 +37,8 @@ Here is the body for the HTML:
 
 Here are the requirements:
 
-1. Font - Use the `Lato` font from Google Fonts. Add the correct link to the head of the HTML file and the correct font-family to the body.
+<!-- 1. Font - Use the `Lato` font from Google Fonts. Add the correct link to the head of the HTML file and the correct font-family to the body. -->
+
 2. Body - Make body font size `18px` and a line height of` 1.6`.
 3. Header - Make the header background color `#5e175b` and the text color white in hexidecimal format (Short version).
 4. Header H1 - Align text to `center`, font size `40px` and a text indent of `20px`.
@@ -107,7 +108,7 @@ Here is the CSS:
 
 ```css
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 18px;
   line-height: 1.6;
 }
