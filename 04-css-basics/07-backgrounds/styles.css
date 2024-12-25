@@ -22,7 +22,8 @@ body {
 
   /* Linear gradient */
   /* background: linear-gradient(to bottom, lightblue, darkblue); */
-  background: linear-gradient(to bottom left, lightblue, darkblue);
+  /* background: linear-gradient(to bottom left, lightblue, darkblue); */
+  background-color: red;
 }
 
 .hero h1 {
