@@ -1,3 +1,28 @@
 body {
   font-family: Arial, sans-serif;
 }
+
+.flex-container {
+  background: greenyellow;
+  width: 100%;
+  display: flex;
+}
+
+.flex-item {
+  background: coral;
+  border: 1px solid black;
+  padding: 20px;
+  flex: 1 0 0;
+}
+
+.item-1,
+.item-2 {
+  /* flex-grow: 1; */
+  /* background-color: blue; */
+}
+
+.item-3 {
+  /* flex-grow: 2;
+  flex-shrink: 0;
+  flex-basis: 200px; */
+}
