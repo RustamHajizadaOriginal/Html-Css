@@ -12,4 +12,18 @@ body {
   max-width: 400px;
   margin: 20px;
   padding: 20px;
+  border: 5px solid greenyellow;
+}
+.box-1 {
+  border-radius: 50px;
+}
 
+.box-2 {
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.box-3 {
+  border: none;
+  border-top: solid red 10px;
+  border-bottom: solid blue 10px;
+}
