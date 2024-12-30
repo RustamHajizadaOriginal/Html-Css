@@ -9,9 +9,7 @@ body {
 }
 
 .box {
-  background: coral;
   max-width: 400px;
   margin: 20px;
   padding: 20px;
-  border: 2px solid black;
-}
+
