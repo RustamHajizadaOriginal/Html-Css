@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 450px;
+  margin: 150px auto;
+}
+
+.card {
+  background-color: #373f4d;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  padding: 60px 50px;
+  box-shadow: 12px 12px 18px rgba(0, 0, 0, 0.6);
+}
+
+.card h1 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.card .form-group {
+  margin-bottom: 20px;
+}
+
+.card input[type="text"] {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  background-color: #f1f1f1;
+}
+
+.card button {
+  width: 100%;
+  padding: 15px 10px;
+  font-size: large;
+  border: none;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff4e50, #f9d423);
+  color: white;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: linear-gradient(90deg, #f9d423, #ff4e50);
+}
