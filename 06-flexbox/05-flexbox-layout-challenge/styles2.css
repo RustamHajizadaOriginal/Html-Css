@@ -35,16 +35,12 @@ p {
   padding: 40px;
 }
 
-.main-menu {
+.menu {
   display: flex;
   gap: 20px;
   padding: 25px;
-  background: #f4f4f4;
   font-size: large;
-}
-
-.main-menu a {
-  font-size: 20px;
+  background-color: #f4f4f4;
 }
 
 .main {
@@ -59,9 +55,10 @@ p {
 
 .main aside {
   width: 300px;
+  /* background-color: #f4f4f4; */
 }
 
-.main h3 {
+.main aside h3 {
   padding: 10px;
   background-color: coral;
   color: white;
@@ -69,6 +66,6 @@ p {
 
 .main aside li {
   padding: 10px;
-  background-color: #f4f4f4;
   border-bottom: 1px solid #ccc;
+  background-color: #f4f4f4;
 }
