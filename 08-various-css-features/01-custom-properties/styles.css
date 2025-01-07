@@ -4,26 +4,53 @@
   box-sizing: border-box;
 }
 
+:root {
+  --header-color: lightgrey;
+  --primery-color: lightgreen;
+  --secondary-color: red;
+  --tertiary-color: lightblue;
+  --shadow-opacity: 0.49;
+  --container-width: 600px;
+  --container-width-large: 1100px;
+}
+
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 header {
-  background-color: lightblue;
+  background-color: var(--header-color);
   padding: 20px 0;
   text-align: center;
+  margin-bottom: 10px;
 }
 
+/* .container {
+  --primery-color: lightblue;
+} */
+
 .container {
-  max-width: 600px;
-  margin: 30px auto;
   display: flex;
+  max-width: var(--container-width);
+  margin: 30px auto;
   gap: 20px;
 }
 
 .box {
-  width: 100%;
+  flex: 1;
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, var(--shadow-opacity));
+}
+
+.box-1 {
+  background: var(--primery-color);
+}
+
+.box-2 {
+  background: var(--secondary-color);
+}
+
+.box-3 {
+  background: var(--tertiary-color);
 }
