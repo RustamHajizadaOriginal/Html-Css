@@ -1,8 +1,19 @@
-img {
-  width: 100%;
-}
-
 .container {
   max-width: 900px;
   margin: 70px auto;
+}
+
+img {
+  max-width: 100%;
+  /* filter: grayscale(75%); */
+  /* filter: blur(2px); */
+  /* filter: brightness(50%); */
+  /* filter: drop-shadow(10px 10px 5px green); */
+  /* filter: opacity(50%); */
+
+  /* Chain Filters */
+  filter: grayscale(10%) drop-shadow(10px 10px 5px yellowgreen);
+
+  /* Reset Filters */
+  /* filter: none; */
 }
