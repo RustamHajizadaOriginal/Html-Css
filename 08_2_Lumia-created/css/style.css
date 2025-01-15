@@ -21,3 +21,58 @@ ul {
 img {
   max-width: 100%;
 }
+
+/* Container */
+
+.container {
+  max-width: 11000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.container-lg {
+  max-width: 14000px;
+}
+
+.container-sm {
+  max-width: 900px;
+}
+
+/* Header */
+.header {
+  margin: 1.5rem auto;
+}
+.header .logo {
+  width: 130px;
+}
+
+.header .header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .main-menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.header .main-menu a {
+  padding: 0.5rem 1rem;
+}
+
+.header .main-menu a:hover {
+  background: #fcf5e9;
+}
+
+.current {
+  background: #fcf5e9;
+  font-weight: 600;
+}
+
+/* Media Quaries */
+@media (max-width: 768px) {
+  .header .header-flex {
+    flex-direction: column;
+  }
+}
