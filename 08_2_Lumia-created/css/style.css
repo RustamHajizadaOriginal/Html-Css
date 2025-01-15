@@ -94,6 +94,25 @@ img {
   line-height: 1.4;
   font-weight: normal;
 }
+
+.gallery-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.gallery-item {
+  width: calc(33.333% - 20px);
+  border-radius: 8px;
+}
+.gallery-item:hover {
+  opacity: 0.7;
+}
+
+.gallery-item img {
+  border-radius: 10px;
+}
+
 /* Media Quaries */
 @media (max-width: 768px) {
   .header .header-flex {
@@ -104,5 +123,8 @@ img {
   }
   .hero h2 {
     font: size 1.8rem;
+  }
+  .gallery-item {
+    width: calc(50% - 20px);
   }
 }
