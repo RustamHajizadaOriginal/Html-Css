@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 nav {
@@ -74,18 +74,40 @@ button:hover {
 
 /* Select by type attribute */
 
+input {
+  border-color: yellow;
+}
+
 /* Select by name attribute */
-
+input[name="email"] {
+  border-radius: 15px;
+  border-color: red;
+}
 /* Select text type and id of name */
-
+input[type="text"][id="name"] {
+  background: lightcoral;
+}
 /* Select required inputs */
-
+input[required] {
+  border-color: green;
+}
 /* Select password with a maxlength of 8 */
-
+input[type="password"][maxlength="8"] {
+  background: yellowgreen;
+}
 /* Select button with type of submit */
-
+button[type="submit"] {
+  background: coral;
+}
 /* Select only links that have a href attribute starting with # */
-
+a[href^="#"] {
+  color: blueviolet;
+}
 /* Select only links that have a href attribute ending with .com */
-
+a[href$=".com"] {
+  color: black;
+}
 /* Select only links that have a href attribute containing traversy */
+a[href*="#"] {
+  color: yellow;
+}
