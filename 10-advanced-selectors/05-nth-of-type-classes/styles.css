@@ -39,5 +39,18 @@ ul li:nth-of-type(odd) {
 }
 
 /* nth-of-type vs nth-child */
+p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: x-large;
+  color: Red;
+}
+
+P:nth-child(2) {
+  background: yellowgreen;
+}
 
 /* Using pseudo classes with pseudo elements */
+.container p:first-of-type::first-letter {
+  color: blue;
+  font-size: 2rem;
+}
