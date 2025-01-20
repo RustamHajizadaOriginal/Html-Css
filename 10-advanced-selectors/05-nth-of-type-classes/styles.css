@@ -1,18 +1,42 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 /*  Style the first li of it's parent */
+ul li:first-of-type {
+  font-weight: bold;
+  color: red;
+}
 
 /*  Style the last li of it's parent */
+ul li:last-of-type {
+  color: yellowgreen;
+}
 
 /*  Style the 3rd item */
+ul li:nth-of-type(3) {
+  background: yellowgreen;
+  max-width: 25%;
+}
 
 /*  Style the 6th item */
+ul li:nth-of-type(6) {
+  max-width: 30%;
+  background: red;
+  color: white;
+}
 
 /*  Style the even items */
+ul li:nth-of-type(even) {
+  font-weight: 900;
+}
 
 /*  Style the odd items */
+ul li:nth-of-type(odd) {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+}
 
 /* nth-of-type vs nth-child */
 
