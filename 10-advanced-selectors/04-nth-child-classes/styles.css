@@ -14,11 +14,23 @@ ul li:last-child {
 }
 
 /* Style every odd item */
-
+ul li:nth-child(odd) {
+  background: coral;
+}
 /* Style every even item */
-
+ul li:nth-child(even) {
+  background: lightgreen;
+}
 /* Style every nth Item */
-
+ul li:nth-child(9) {
+  background: lightgray;
+}
 /*  Style every 4th item */
-
+ul li:nth-child(4n) {
+  background: red;
+}
 /* Style the only child */
+ul li:only-child {
+  background: black;
+  color: white;
+}
