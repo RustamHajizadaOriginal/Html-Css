@@ -7,10 +7,28 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
   max-width: 600px;
   margin: 30px auto;
+}
+
+/* .container h1,
+h2,
+p {
+  color: blue;
+}
+
+.container :is(h1, h2, p) {
+  color: yellowgreen;
+}
+
+a:is(:hover, :focus) {
+  background-color: pink;
+} */
+
+.container :has(h1 span) {
+  color: black;
 }
