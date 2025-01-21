@@ -1,11 +1,13 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .container {
@@ -27,4 +29,18 @@ input {
   border: 1px solid #ccc;
   border-radius: 4px;
   position: relative;
+}
+
+h2::before {
+  content: "Hello ";
+  color: red;
+  margin-right: 2px;
+  border-radius: 10px;
+}
+
+label.is-required::after {
+  content: "*";
+  color: blue;
+  margin-left: 5px;
+  font-size: 2rem;
 }
