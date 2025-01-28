@@ -14,7 +14,7 @@ body {
   grid-template-areas:
     " header header search"
     "nav nav nav"
-    "main main side";
+    "main main aside";
 }
 
 header {
@@ -47,11 +47,24 @@ main {
 aside {
   background-color: #ddd;
   padding: 20px;
-  grid-area: side;
+  grid-area: aside;
 }
 
 footer {
   background-color: #666;
   color: #fff;
   padding: 20px;
+  grid-area: footer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-areas:
+      " header"
+      "search"
+      "nav"
+      "main"
+      "aside"
+      "footer";
+  }
 }
