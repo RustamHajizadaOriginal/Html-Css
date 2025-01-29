@@ -1,3 +1,25 @@
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 130px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 50%;
+  transition: all 0.9s;
+}
+
+.logo:hover {
+  transform: rotate(90deg);
+  transform: translateX(25%);
+  transform: translateY(25%);
+  transform: translate(65%, 55%);
+  transform: skew(-30deg);
+  transform: scale(1.9);
+  transform: rotate(90deg) scale(1.9);
 }
