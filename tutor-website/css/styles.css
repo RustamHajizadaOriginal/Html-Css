@@ -294,6 +294,20 @@ img {
 .info-left {
   width: 50%;
 }
+/* Takeaways */
+.takeaways-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 1.5rem 0;
+}
+.takeaways-cards .card {
+  flex-direction: row;
+  text-align: left;
+}
+.takeaways-cards .card i {
+  margin-right: 1rem;
+}
 /* Media Queries */
 @media (max-width: 1200px) {
   .hero .hero-flex {
@@ -355,6 +369,9 @@ img {
   }
   .info-left {
     display: none;
+  }
+  .takeaways-cards {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 576px) {
