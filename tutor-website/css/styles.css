@@ -167,9 +167,7 @@ img {
   gap: 2rem;
   font-size: 1.2rem;
 }
-
 /* Hero */
-
 .hero {
   background: #000 url(../images/header-background.jpg) center center/cover
     no-repeat;
@@ -191,19 +189,16 @@ img {
   font-weight: 700;
   margin-bottom: 1rem;
 }
-
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
   line-height: 1.8;
   font-weight: 400;
 }
-
 .hero img {
   width: 100%;
   margin-right: -100px;
 }
-
 .hero .frame-decoration {
   position: absolute;
   bottom: 0;
@@ -253,6 +248,10 @@ img {
   }
 }
 @media (max-width: 576px) {
+  .hero {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+  }
   .hero h1 {
     font-size: 2.5rem;
   }
