@@ -28,4 +28,27 @@ body {
   border: none;
   border-top: solid red 10px;
   border-bottom: solid blue 10px;
+
+  /*Shorthand */
+  border: 2px solid black;
+  /* same as above */
+  /* border-width: 2px;
+  border-style: dashed;
+  border-color: red; */
+}
+
+.box-1 {
+  border: none;
+  border-top: solid blue 4px;
+  border-bottom: solid red 4px;
+}
+
+.box-2 {
+  border-radius: 50px;
+}
+.box-3 {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 25px;
+
+  border: 2px solid black;
 }

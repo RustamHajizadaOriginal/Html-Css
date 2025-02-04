@@ -41,9 +41,23 @@ ul li:nth-of-type(odd) {
 /* nth-of-type vs nth-child */
 p:nth-of-type(2) {
   font-weight: bold;
+
+
   font-size: large
   color: Red;
 }
+
+
+
+  font-size: x-large;
+
+  font-size: large
+
+  color: Red;
+}
+
+
+
 
 
 

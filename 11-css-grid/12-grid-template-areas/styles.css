@@ -13,8 +13,12 @@ body {
   gap: 1rem;
   grid-template-areas:
     " header header search"
+
+    "nav nav nav";
+
     "nav nav nav"
     "main main aside";
+
 }
 
 header {
@@ -47,7 +51,14 @@ main {
 aside {
   background-color: #ddd;
   padding: 20px;
+
+
   grid-area: aside;
+
+  grid-area: side;
+
+  grid-area: aside;
+
 }
 
 footer {

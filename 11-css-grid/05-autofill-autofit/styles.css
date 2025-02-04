@@ -16,5 +16,17 @@ body {
 }
 .item-grid {
   display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 100px);
+  /* justify-content: space-evenly;
+  justify-items: stretch; */
+  /* align-items: end; */
+  /* align-content: start; */
+  place-content: space-around;
+  /* place-items: center; */
+
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
